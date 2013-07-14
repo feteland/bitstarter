@@ -58,7 +58,7 @@ var checkHtmlFile = function(htmlfile, checksfile) {
     return out;
 };
 
-var url2file = function(result,response){
+var url2file = function(result){
     if(result instanceof Error){
 	util.puts('Error: ' + result.message);
     }else{
